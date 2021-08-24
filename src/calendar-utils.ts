@@ -63,6 +63,7 @@ export interface CalendarEvent<MetaType = any> {
   };
   draggable?: boolean;
   meta?: MetaType;
+  type?: String;
 }
 
 export interface WeekViewAllDayEvent {
